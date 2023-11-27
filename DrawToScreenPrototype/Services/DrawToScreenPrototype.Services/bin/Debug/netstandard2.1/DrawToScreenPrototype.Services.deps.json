@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "DrawToScreenPrototype.Services/1.0.0": {
+        "dependencies": {
+          "DrawToScreenPrototype.Services.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "DrawToScreenPrototype.Services.dll": {}
+        }
+      },
+      "DrawToScreenPrototype.Services.Interfaces/1.0.0": {
+        "runtime": {
+          "DrawToScreenPrototype.Services.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DrawToScreenPrototype.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DrawToScreenPrototype.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\bin\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.deps.json
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\bin\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.dll
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\bin\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.pdb
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\obj\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\obj\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\obj\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\obj\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.AssemblyInfo.cs
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\obj\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\obj\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.dll
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\Services\DrawToScreenPrototype.Services.Interfaces\obj\Debug\netstandard2.1\DrawToScreenPrototype.Services.Interfaces.pdb

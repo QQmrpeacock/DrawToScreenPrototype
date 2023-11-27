@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DrawToScreenPrototype.Core\DrawToScreenPrototype.Core.csproj" />
+    <ProjectReference Include="..\Modules\DrawToScreenPrototype.Modules.ModuleName\DrawToScreenPrototype.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\DrawToScreenPrototype.Services.Interfaces\DrawToScreenPrototype.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\DrawToScreenPrototype.Services\DrawToScreenPrototype.Services.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lbaJiZTrHqrIhcFVQtFJG7bS1DyylNev1S/KhKju/CmFkREXqpiMIkZKAZnqzBNdTKxdIFAVpM2rSKqDwbZbNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Michael\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+    "C:\\Users\\Michael\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\Michael\\.nuget\\packages\\prism.wpf\\8.1.97\\prism.wpf.8.1.97.nupkg.sha512"
+  ],
+  "logs": []
+}

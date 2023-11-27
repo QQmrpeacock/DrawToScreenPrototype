@@ -1,0 +1,12 @@
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\bin\Release\net6.0-windows\DrawToScreenPrototype.Core.deps.json
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\bin\Release\net6.0-windows\DrawToScreenPrototype.Core.dll
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\bin\Release\net6.0-windows\DrawToScreenPrototype.Core.pdb
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\DrawToScreenPrototype.Core.csproj.AssemblyReference.cache
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\DrawToScreenPrototype.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\DrawToScreenPrototype.Core.AssemblyInfoInputs.cache
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\DrawToScreenPrototype.Core.AssemblyInfo.cs
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\DrawToScreenPrototype.Core.csproj.CoreCompileInputs.cache
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\DrawToScreenPrototype.Core.dll
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\refint\DrawToScreenPrototype.Core.dll
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\DrawToScreenPrototype.Core.pdb
+C:\Users\Michael\source\repos\DrawToScreenPrototype\DrawToScreenPrototype\DrawToScreenPrototype.Core\obj\Release\net6.0-windows\ref\DrawToScreenPrototype.Core.dll

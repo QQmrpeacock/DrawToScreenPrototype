@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="DrawToScreenPrototype.Modules.ModuleName.Views.SimpleCanvasView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DrawToScreenPrototype.Modules.ModuleName.Views"
+             xmlns:prism="http://prismlibrary.com/" 
+             xmlns:PresentationOptions="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+             prism:ViewModelLocator.AutoWireViewModel="True" >
+    <Viewbox Stretch="Fill" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" PresentationOptions:Freeze="True" >
+
+        <Canvas Width="{Binding Path=CANVAS, Mode=OneTime}" 
+                Height="{Binding Path=CANVAS, Mode=OneTime}" 
+                Background="DarkGray" 
+                PresentationOptions:Freeze="True" 
+                RenderTransformOrigin="0.5,0.5">
+            <Canvas.RenderTransform>
+                <ScaleTransform ScaleY="-1" PresentationOptions:Freeze="True" />
+            </Canvas.RenderTransform>
+
+            <ItemsControl ItemsSource="{Binding Path=RectItems, NotifyOnTargetUpdated=True, Mode=OneWay}"  >
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas>
+                        </Canvas>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <!-- Height must be bound once here or WPF is buggy and wont intialize correctly resulting in no bars until the window is resized-->
+                            <Rectangle Name="Bar" 
+                                   Fill="{Binding Path=Colour, Mode=OneTime}"  
+                                   Width="{Binding Path=Width, Mode=OneTime}"
+                                   Height="1"
+                                   Canvas.Top ="0">
+                            <Rectangle.RenderTransform>
+                                <ScaleTransform ScaleY="1" PresentationOptions:Freeze="True" />
+                            </Rectangle.RenderTransform>
+
+                            <Rectangle.Triggers>
+                                <EventTrigger RoutedEvent="Binding.TargetUpdated" PresentationOptions:Freeze="True" >
+                                    <BeginStoryboard>
+                                        <Storyboard>
+
+                                            <!-- Animate the Height on the bars when it updates, this makes the animation much smoother as wpf will iterpolate the position on large moves and stutters -->
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Bar"
+                                                                           Storyboard.TargetProperty="RenderTransform.ScaleY"
+                                                                           Duration="{Binding Path=DataContext.DURATION, Mode=OneTime, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Viewbox}}}"> 
+
+                                                <!-- Using a SplineDoubleKeyFrame means we start moving faster then taper off as we get closer to the new value (this is the special sauce for low tps)-->
+                                                <SplineDoubleKeyFrame KeySpline="0,0.2 0,0.8" 
+                                                                      Value="{Binding Path=Height, NotifyOnTargetUpdated=True, Mode=OneWay}" 
+                                                                      KeyTime="{Binding Path=DataContext.KEYTIME, Mode=OneTime, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Viewbox}}}" />
+
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Rectangle.Triggers>
+                            
+                        </Rectangle>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+
+                <ItemsControl.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="Canvas.Left" Value="{Binding X, Mode=OneTime}" />
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+
+            </ItemsControl>
+        </Canvas>
+    </Viewbox>
+</UserControl>

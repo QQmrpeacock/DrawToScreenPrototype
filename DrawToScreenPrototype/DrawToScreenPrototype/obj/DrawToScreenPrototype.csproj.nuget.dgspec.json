@@ -1,0 +1,329 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj",
+        "projectName": "DrawToScreenPrototype.Core",
+        "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.csproj",
+        "projectName": "DrawToScreenPrototype",
+        "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj": {
+                "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj"
+              },
+              "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Modules\\DrawToScreenPrototype.Modules.ModuleName\\DrawToScreenPrototype.Modules.ModuleName.csproj": {
+                "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Modules\\DrawToScreenPrototype.Modules.ModuleName\\DrawToScreenPrototype.Modules.ModuleName.csproj"
+              },
+              "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj"
+              },
+              "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services\\DrawToScreenPrototype.Services.csproj": {
+                "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services\\DrawToScreenPrototype.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Modules\\DrawToScreenPrototype.Modules.ModuleName\\DrawToScreenPrototype.Modules.ModuleName.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Modules\\DrawToScreenPrototype.Modules.ModuleName\\DrawToScreenPrototype.Modules.ModuleName.csproj",
+        "projectName": "DrawToScreenPrototype.Modules.ModuleName",
+        "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Modules\\DrawToScreenPrototype.Modules.ModuleName\\DrawToScreenPrototype.Modules.ModuleName.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Modules\\DrawToScreenPrototype.Modules.ModuleName\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj": {
+                "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\DrawToScreenPrototype.Core\\DrawToScreenPrototype.Core.csproj"
+              },
+              "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj",
+        "projectName": "DrawToScreenPrototype.Services.Interfaces",
+        "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services\\DrawToScreenPrototype.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services\\DrawToScreenPrototype.Services.csproj",
+        "projectName": "DrawToScreenPrototype.Services",
+        "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services\\DrawToScreenPrototype.Services.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Michael\\source\\repos\\DrawToScreenPrototype\\DrawToScreenPrototype\\Services\\DrawToScreenPrototype.Services.Interfaces\\DrawToScreenPrototype.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
